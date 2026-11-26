@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Gold Live (Gold Price Tracker)</title>
+  <style>
+    :root {
+      --bg: #0c0803;
+      --surface: #171108;
+      --border: rgba(232, 185, 73, 0.24);
+      --gold: #f5c84b;
+      --gold-soft: #e2b857;
+      --text: #f6efe2;
+      --muted: #b8ab96;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at top center, #241706 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 32px 16px 56px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px 28px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid var(--border);
+      background: rgba(245, 200, 75, 0.08);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      color: var(--gold);
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    h2 {
+      margin: 26px 0 8px;
+      font-size: 18px;
+      color: var(--gold-soft);
+      border-bottom: 1px solid rgba(232, 185, 73, 0.14);
+      padding-bottom: 6px;
+    }
+    p, li {
+      color: var(--text);
+      font-size: 15px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 14px;
+    }
+    li { margin-bottom: 8px; }
+    code {
+      background: rgba(245, 200, 75, 0.12);
+      color: var(--gold);
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+    a { color: var(--gold); }
+    footer {
+      margin-top: 30px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(232, 185, 73, 0.16);
+      font-size: 13px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <span class="badge">Privacy Policy</span>
+    <h1>Gold Live — Gold Price Tracker</h1>
+    <p class="subtitle">
+      Package: <code>com.goldtrackerapp</code> &nbsp;|&nbsp; Effective Date: November 26, 2026
+    </p>
+
+    <p>
+      Gold Live (“we”, “our”, or “the app”) respects your privacy. This Privacy Policy explains what
+      information the Gold Live Android application accesses, how it is used, and your choices.
+      Gold Live does not require account registration, login, or personal profile submission.
+    </p>
+
+    <h2>1. Permissions &amp; Information We Access</h2>
+    <ul>
+      <li>
+        <strong>Approximate Location (<code>ACCESS_COARSE_LOCATION</code>):</strong>
+        With your explicit permission, the app uses approximate (city-level) location on your device
+        to identify your nearest supported city (for example, Chennai, Mumbai, Delhi, Bengaluru, or
+        Hyderabad) so it can show local gold and silver rates and subscribe to the matching city
+        price-alert topic. Precise GPS location is not requested, and your coordinates are never
+        stored on our servers or shared with third parties. You can deny location permission and
+        select your city manually at any time.
+      </li>
+      <li>
+        <strong>Notifications (<code>POST_NOTIFICATIONS</code>, <code>RECEIVE_BOOT_COMPLETED</code>, <code>VIBRATE</code>):</strong>
+        With your permission, the app sends local daily gold rate reminders and real-time push
+        notifications when gold prices change or reach your configured alert thresholds. You can
+        turn notifications off anytime inside the app’s Settings or in Android system settings.
+      </li>
+      <li>
+        <strong>Network Access (<code>INTERNET</code>):</strong>
+        Used solely to fetch live bullion rates, historical price charts, global spot prices, and
+        market calendar updates, and to receive push notification messages.
+      </li>
+    </ul>
+
+    <h2>2. Local Storage &amp; Third-Party Services</h2>
+    <ul>
+      <li>
+        <strong>On-Device Storage:</strong> Your selected city, alert preferences, gold savings/chit
+        tracker entries, and cached rate history are stored locally on your device using Android
+        local storage (<code>AsyncStorage</code>). Uninstalling the app or clearing app data deletes
+        this information.
+      </li>
+      <li>
+        <strong>Firebase Cloud Messaging (FCM):</strong> Push notifications are delivered through
+        Google Firebase Cloud Messaging using topic subscriptions (such as city-level gold rate
+        topics). Firebase processes an anonymous app-instance/messaging token solely to route push
+        notifications, in accordance with the
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.
+      </li>
+    </ul>
+
+    <h2>3. Data Sharing &amp; Selling</h2>
+    <p>
+      We do not sell, rent, or trade your personal information. We do not collect names, email
+      addresses, phone numbers, contacts, photos, or payment details inside the app.
+    </p>
+
+    <h2>4. Children’s Privacy</h2>
+    <p>
+      Gold Live is a general-audience financial reference utility and is not directed at children
+      under the age of 13. We do not knowingly collect personal information from children.
+    </p>
+
+    <h2>5. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time to reflect app updates or legal
+      requirements. Any changes will be posted on this page with an updated effective date.
+    </p>
+
+    <h2>6. Contact Us</h2>
+    <p>
+      If you have questions about this Privacy Policy or how Gold Live handles data, please contact
+      the developer at <a href="mailto:ajith.m@wholewave.in">ajith.m@wholewave.in</a>.
+    </p>
+
+    <footer>
+      &copy; 2026 Gold Live (<code>com.goldtrackerapp</code>). All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
